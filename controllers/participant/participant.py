@@ -38,7 +38,7 @@ for i in range(0, 4):
     leftWheel.setPosition(1000)
     rightWheel.setPosition(-1000)
     # Malha aberta - temporizador para virar a direita
-    robot.step(488)
+    robot.step(480)
 
 # Stop the robot when path is completed, as the robot performance
 # is only computed when the robot has stopped.
